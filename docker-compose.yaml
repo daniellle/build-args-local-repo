@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  web:
+    labels:
+      shipyard.route: '/'
+    build:
+      context: .
+      args:
+        - TEST_ARG=${TEST_ARG}
+        - REDIS_URL=${SHIPYARD_DOMAIN_REDIS}
+    ports:
+      - '80'
+    environment:
+      CI: 'true'
+      CII: 'false'
+      
+
+  redis:
+    image: 'redis:5.0-alpine'
+    ports:
+      - '6379'
+    
