@@ -1,7 +1,7 @@
 # build-arg
 
 Test build args are passed correctly
-PR-LABEL
+PR-LABEL2
 ## Example message
 ```
 {
