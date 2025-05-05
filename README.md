@@ -1,5 +1,5 @@
 # build-arg
-C
+C-new-commit
 Test build args are passed correctly
 
 ## Example message
