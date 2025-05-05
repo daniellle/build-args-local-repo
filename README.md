@@ -1,5 +1,5 @@
 # build-arg
-A
+A-B
 Test build args are passed correctly
 
 ## Example message
