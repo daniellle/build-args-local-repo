@@ -3,7 +3,7 @@
 Test build args are passed correctly
 
 ## Example message
-```
+```df
 {
     "application_id": "90fd0e2f-fdc7-4408-a1df-588dc071ab50",
     "application_build_id": "006126b0-deb3-4938-8931-e9f25cc4f5ee",
