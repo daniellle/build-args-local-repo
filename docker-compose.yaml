@@ -19,4 +19,10 @@ services:
     image: 'redis:5.0-alpine'
     ports:
       - '6379'
-    
+
+  mongo:
+    image: mongo:latest
+    command:
+      - --storageEngine=wiredTiger
+    ports:
+      - '27017'
