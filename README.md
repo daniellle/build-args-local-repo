@@ -10,6 +10,7 @@ Test build args are passed correctly
     "application_build_id": "006126b0-deb3-4938-8931-e9f25cc4f5ee",
     "builds": [
         {
+
             "build_id": "01bbc570-c605-44d0-bd2d-a57d90ccdc5f",
             "parent_project_id": "d5add1e3-0eb1-4d5a-b6b0-0a5771f9c67a",
             "services": {
