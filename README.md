@@ -1,6 +1,4 @@
 # build-arg
-fef
-
 
 ## Example message
 ```
